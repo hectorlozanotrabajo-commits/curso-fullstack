@@ -2,6 +2,17 @@
   box-sizing: border-box;
 }
 
+.contenedor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 300px;
+  width: 900px;
+  border: 2px dashed red;
+  gap: 20px;
+  margin: 0 auto;
+}
+
 .caja {
   width: 200px;
   height: 100px;
